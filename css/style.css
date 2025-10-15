@@ -1,0 +1,33 @@
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+} */
+:root{
+    --ocolor:#fe631b;
+    --bcolor:#060606;
+    --gcolor:#e5e3e3;
+}
+.bg1-color{
+    background-color: var(--gcolor);
+}
+.bg2-color{
+    background:var(--ocolor);
+}
+.text-color{
+   color: var(--ocolor) !important;
+}
+.menu ul li:hover{
+    background-color: #fe631b;
+    font-size: 16px;
+    color: white !important;
+    transition: all 1s;
+}
+.service:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+}
+
